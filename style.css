@@ -20,13 +20,13 @@
     margin-top: 50px;
     border-radius: 10%;
     text-align:center;
-    font-family: round, sans-serif;
+    font-family: round;
 }
 
 .secondbox{
     width:300px;
     height: 500px;
-    background-color:gray;
+    background-color:rgb(173, 168, 168);
     border:10px solid black;
     margin-left: auto;
     margin-right:auto;
@@ -39,6 +39,19 @@
     font-family: 'Times New Roman', Times, serif;
     size:20px;
     text-align:center;
+}
+
+.navigationpanel{
+    width:200px;
+    height:400px;
+    background-color: lightslategray;
+    border: 5px solid black;
+    border-radius:5%;
+    margin-left:30px;
+    margin-top:30px;
+    text-align:left;
+    text-decoration:underline;
+    font-family: round;
 }
 
     
