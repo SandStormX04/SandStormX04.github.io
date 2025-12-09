@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Your Name</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link active">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Projects</h1>
+      <p>A selection of things I’ve built and shipped.</p>
+    </section>
+
+    <section class="filters">
+      <button class="chip" data-filter="all">All</button>
+      <button class="chip" data-filter="web">Web</button>
+      <button class="chip" data-filter="design">Design</button>
+      <button class="chip" data-filter="other">Other</button>
+    </section>
+
+    <section class="grid">
+      <article class="card" data-type="web">
+        <img src="images/proj-web-1.jpg" alt="Web project preview" />
+        <div class="card-body">
+          <h3>Portfolio site</h3>
+          <p>Responsive site built with semantic HTML, modern CSS, and vanilla JS.</p>
+          <ul class="meta">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn btn-small" href="#" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn-small btn-secondary" href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-type="design">
+        <img src="images/proj-design-1.jpg" alt="Design project preview" />
+        <div class="card-body">
+          <h3>Design system</h3>
+          <p>Token-based system for consistent components and accessibility.</p>
+          <ul class="meta">
+            <li>Figma</li><li>Tokens</li><li>A11y</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn btn-small" href="#" target="_blank" rel="noopener">Case study</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" data-type="other">
+        <img src="images/proj-other-1.jpg" alt="Other project preview" />
+        <div class="card-body">
+          <h3>Open source tool</h3>
+          <p>CLI for automating repetitive tasks with helpful defaults.</p>
+          <ul class="meta">
+            <li>Node</li><li>CLI</li><li>DX</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn btn-small btn-secondary" href="#" target="_blank" rel="noopener">Repo</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+</body>
+</html>

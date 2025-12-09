@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rivaan Verma</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Your Name</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
 
-        <link rel="stylesheet" href="style.css">
-
-            <link rel="icon" type="image/png" href="tabimage.png">
-    </head>
-    <style>
-        body
-        {
-            background-color: rgb(120,174,222);
-        }
-
-        
-    </style>
-    <body>
-       
-        <div class="navigationpanel">
-            <ul>
-                <li><a href="aboutme.html">About</a></li>
-                <li><a href = "projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hello, I’m Your Name</h1>
+        <p>I build things on the web. This is my corner of the internet.</p>
+        <div class="hero-actions">
+          <a class="btn" href="projects.html">View projects</a>
+          <a class="btn btn-secondary" href="about.html">Learn more</a>
         </div>
-        
+      </div>
+      <div class="hero-image">
+        <!-- Replace src with your image -->
+        <img src="images/hero-placeholder.jpg" alt="Portrait or featured image" />
+      </div>
+    </section>
 
-        <div class="maintextbox">
-            <h2>
-                Hey, I'm Rivaan.
-            </h2>
-            <p id="school">
-                Thomas Jefferson High School For Science and Technology
-            </p>
-            <div class="secondbox">
-                <p>
-                I'm a good guy!
-                </p>
-            </div>
-        </div>
-        
-    </body>
-    </html>
+    <section class="featured">
+      <h2>Featured work</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="images/project1.jpg" alt="Project 1 preview" />
+          <div class="card-body">
+            <h3>Project One</h3>
+            <p>Short description of what this project does and why it’s cool.</p>
+            <a class="card-link" href="projects.html">See details</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project2.jpg" alt="Project 2 preview" />
+          <div class="card-body">
+            <h3>Project Two</h3>
+            <p>Short description of tech used and your role.</p>
+            <a class="card-link" href="projects.html">See details</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/project3.jpg" alt="Project 3 preview" />
+          <div class="card-body">
+            <h3>Project Three</h3>
+            <p>Short description and outcomes/results.</p>
+            <a class="card-link" href="projects.html">See details</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+</body>
+</html>
