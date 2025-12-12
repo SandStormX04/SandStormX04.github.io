@@ -20,13 +20,14 @@ body {
   background: var(--bg);
 }
 
-/* Header & Footer */
+
 .site-header, .site-footer {
   background: var(--surface);
   border-bottom: 1px solid #ddd;
 }
 .site-footer {
   border-top: 1px solid #ddd;
+  margin-bottom:0px;
 }
 
 .container {
